@@ -12,15 +12,16 @@ import (
 	"github.com/dchest/siphash"
 	"github.com/google/btree"
 	"golang.org/x/net/context"
+
 	// Import driver for sqlite
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/araddon/qlbridge/datasource"
-	"github.com/araddon/qlbridge/exec"
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/plan"
-	"github.com/araddon/qlbridge/rel"
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/exec"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/plan"
+	"github.com/fuhongbo/qlbridge/rel"
+	"github.com/fuhongbo/qlbridge/schema"
 )
 
 var (

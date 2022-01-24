@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/value"
 )
 
 // Avg average of values.  Note, this function DOES NOT persist state doesn't aggregate

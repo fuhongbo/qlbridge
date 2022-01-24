@@ -4,11 +4,11 @@ package mockcsvtestdata
 import (
 	"sync"
 
-	"github.com/araddon/qlbridge/datasource"
-	"github.com/araddon/qlbridge/datasource/mockcsv"
-	"github.com/araddon/qlbridge/expr/builtins"
-	"github.com/araddon/qlbridge/plan"
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/datasource/mockcsv"
+	"github.com/fuhongbo/qlbridge/expr/builtins"
+	"github.com/fuhongbo/qlbridge/plan"
+	"github.com/fuhongbo/qlbridge/schema"
 )
 
 var (

@@ -15,8 +15,8 @@ import (
 	u "github.com/araddon/gou"
 	"github.com/golang/protobuf/proto"
 
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/value"
 )
 
 var (

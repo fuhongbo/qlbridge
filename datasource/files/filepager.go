@@ -9,9 +9,9 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/api/iterator"
 
-	"github.com/araddon/qlbridge/exec"
-	"github.com/araddon/qlbridge/plan"
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/exec"
+	"github.com/fuhongbo/qlbridge/plan"
+	"github.com/fuhongbo/qlbridge/schema"
 )
 
 var (

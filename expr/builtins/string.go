@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/value"
 )
 
 // Contains does first arg string contain 2nd arg?

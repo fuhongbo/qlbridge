@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/expr/builtins"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/expr/builtins"
 )
 
 func TestFuncsRegistry(t *testing.T) {

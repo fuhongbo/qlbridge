@@ -1,4 +1,4 @@
-module github.com/araddon/qlbridge
+module github.com/fuhongbo/qlbridge
 
 go 1.13
 

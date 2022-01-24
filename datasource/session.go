@@ -4,9 +4,9 @@ import (
 	"database/sql/driver"
 	"time"
 
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/plan"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/plan"
+	"github.com/fuhongbo/qlbridge/value"
 )
 
 const (

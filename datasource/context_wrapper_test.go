@@ -8,9 +8,9 @@ import (
 	"github.com/araddon/dateparse"
 	u "github.com/araddon/gou"
 
-	"github.com/araddon/qlbridge/datasource"
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/value"
 )
 
 // Our test struct, try as many different field types as possible

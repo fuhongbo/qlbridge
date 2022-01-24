@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/schema"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/value"
 )
 
 var (

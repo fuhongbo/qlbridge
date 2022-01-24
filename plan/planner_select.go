@@ -5,8 +5,8 @@ import (
 
 	u "github.com/araddon/gou"
 
-	"github.com/araddon/qlbridge/rel"
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/rel"
+	"github.com/fuhongbo/qlbridge/schema"
 )
 
 func needsFinalProjection(s *rel.SqlSelect) bool {

@@ -8,8 +8,8 @@ import (
 
 	"github.com/araddon/dateparse"
 	u "github.com/araddon/gou"
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/value"
 	"github.com/leekchan/timeutil"
 	"github.com/lytics/datemath"
 )

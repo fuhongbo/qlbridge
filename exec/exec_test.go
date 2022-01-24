@@ -10,12 +10,12 @@ import (
 	u "github.com/araddon/gou"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/araddon/qlbridge/datasource"
-	"github.com/araddon/qlbridge/datasource/mockcsv"
-	td "github.com/araddon/qlbridge/datasource/mockcsvtestdata"
-	"github.com/araddon/qlbridge/exec"
-	"github.com/araddon/qlbridge/schema"
-	"github.com/araddon/qlbridge/testutil"
+	"github.com/fuhongbo/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/datasource/mockcsv"
+	td "github.com/fuhongbo/qlbridge/datasource/mockcsvtestdata"
+	"github.com/fuhongbo/qlbridge/exec"
+	"github.com/fuhongbo/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/testutil"
 )
 
 func TestMain(m *testing.M) {

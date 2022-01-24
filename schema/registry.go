@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	u "github.com/araddon/gou"
-	"github.com/araddon/qlbridge/lex"
+	"github.com/fuhongbo/qlbridge/lex"
 )
 
 var (

@@ -7,9 +7,9 @@ import (
 
 	u "github.com/araddon/gou"
 
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/rel"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/rel"
+	"github.com/fuhongbo/qlbridge/value"
 )
 
 // A static projection has already had its column/types defined

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	u "github.com/araddon/gou"
-	"github.com/araddon/qlbridge/lex"
+	"github.com/fuhongbo/qlbridge/lex"
 	"github.com/stretchr/testify/assert"
 )
 

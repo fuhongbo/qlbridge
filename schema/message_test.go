@@ -4,7 +4,7 @@ import (
 	"database/sql/driver"
 	"testing"
 
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/schema"
 	"github.com/stretchr/testify/assert"
 )
 

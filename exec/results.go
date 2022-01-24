@@ -6,9 +6,9 @@ import (
 
 	u "github.com/araddon/gou"
 
-	"github.com/araddon/qlbridge/datasource"
-	"github.com/araddon/qlbridge/plan"
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/plan"
+	"github.com/fuhongbo/qlbridge/schema"
 )
 
 const (

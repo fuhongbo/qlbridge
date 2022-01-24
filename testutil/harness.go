@@ -11,10 +11,10 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/araddon/qlbridge/datasource"
-	td "github.com/araddon/qlbridge/datasource/mockcsvtestdata"
-	"github.com/araddon/qlbridge/exec"
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/datasource"
+	td "github.com/fuhongbo/qlbridge/datasource/mockcsvtestdata"
+	"github.com/fuhongbo/qlbridge/exec"
+	"github.com/fuhongbo/qlbridge/schema"
 )
 
 var (

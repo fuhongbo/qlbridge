@@ -12,11 +12,11 @@ import (
 	"github.com/lytics/cloudstorage/localfs"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/araddon/qlbridge/datasource/files"
-	td "github.com/araddon/qlbridge/datasource/mockcsvtestdata"
-	"github.com/araddon/qlbridge/exec"
-	"github.com/araddon/qlbridge/schema"
-	"github.com/araddon/qlbridge/testutil"
+	"github.com/fuhongbo/qlbridge/datasource/files"
+	td "github.com/fuhongbo/qlbridge/datasource/mockcsvtestdata"
+	"github.com/fuhongbo/qlbridge/exec"
+	"github.com/fuhongbo/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/testutil"
 )
 
 var localconfig = &cloudstorage.Config{

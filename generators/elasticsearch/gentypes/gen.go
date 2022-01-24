@@ -8,9 +8,9 @@ import (
 	"github.com/araddon/dateparse"
 	u "github.com/araddon/gou"
 
-	"github.com/araddon/qlbridge/rel"
-	"github.com/araddon/qlbridge/schema"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/rel"
+	"github.com/fuhongbo/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/value"
 )
 
 var (

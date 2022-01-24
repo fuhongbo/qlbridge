@@ -11,11 +11,11 @@ import (
 	u "github.com/araddon/gou"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/araddon/qlbridge/datasource"
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/rel"
-	"github.com/araddon/qlbridge/value"
-	"github.com/araddon/qlbridge/vm"
+	"github.com/fuhongbo/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/rel"
+	"github.com/fuhongbo/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/vm"
 )
 
 var _ = u.EMPTY

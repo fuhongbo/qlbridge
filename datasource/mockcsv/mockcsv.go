@@ -9,9 +9,9 @@ import (
 
 	u "github.com/araddon/gou"
 
-	"github.com/araddon/qlbridge/datasource"
-	"github.com/araddon/qlbridge/datasource/membtree"
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/datasource/membtree"
+	"github.com/fuhongbo/qlbridge/schema"
 )
 
 const (

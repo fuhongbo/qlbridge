@@ -7,7 +7,7 @@ Usage
 
 	import (
 		"database/sql"
-		_ "github.com/araddon/qlbridge/qlbdriver"
+		_ "github.com/fuhongbo/qlbridge/qlbdriver"
 	)
 
 	func main() {
@@ -24,7 +24,7 @@ Usage
 */
 package qlbdriver
 
-import "github.com/araddon/qlbridge/exec"
+import "github.com/fuhongbo/qlbridge/exec"
 
 func init() {
 	exec.RegisterSqlDriver()

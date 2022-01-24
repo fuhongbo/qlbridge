@@ -8,7 +8,7 @@ import (
 	u "github.com/araddon/gou"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/araddon/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/datasource"
 )
 
 type user struct {

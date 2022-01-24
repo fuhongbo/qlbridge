@@ -6,10 +6,10 @@ import (
 
 	u "github.com/araddon/gou"
 
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/generators/elasticsearch/gentypes"
-	"github.com/araddon/qlbridge/lex"
-	"github.com/araddon/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/generators/elasticsearch/gentypes"
+	"github.com/fuhongbo/qlbridge/lex"
+	"github.com/fuhongbo/qlbridge/value"
 )
 
 var _ = u.EMPTY

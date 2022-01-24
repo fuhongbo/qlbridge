@@ -8,8 +8,8 @@ import (
 	"github.com/dchest/siphash"
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/araddon/qlbridge/datasource"
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/schema"
 )
 
 var (

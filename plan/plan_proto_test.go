@@ -7,13 +7,13 @@ import (
 	u "github.com/araddon/gou"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/araddon/qlbridge/datasource"
-	td "github.com/araddon/qlbridge/datasource/mockcsvtestdata"
-	"github.com/araddon/qlbridge/expr"
-	"github.com/araddon/qlbridge/plan"
-	"github.com/araddon/qlbridge/rel"
-	"github.com/araddon/qlbridge/value"
-	"github.com/araddon/qlbridge/vm"
+	"github.com/fuhongbo/qlbridge/datasource"
+	td "github.com/fuhongbo/qlbridge/datasource/mockcsvtestdata"
+	"github.com/fuhongbo/qlbridge/expr"
+	"github.com/fuhongbo/qlbridge/plan"
+	"github.com/fuhongbo/qlbridge/rel"
+	"github.com/fuhongbo/qlbridge/value"
+	"github.com/fuhongbo/qlbridge/vm"
 )
 
 var sqlStatements = []string{

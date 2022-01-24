@@ -4,8 +4,8 @@ import (
 	"database/sql/driver"
 	"testing"
 
-	"github.com/araddon/qlbridge/datasource"
-	"github.com/araddon/qlbridge/testutil"
+	"github.com/fuhongbo/qlbridge/datasource"
+	"github.com/fuhongbo/qlbridge/testutil"
 )
 
 func TestSchemaShowStatements(t *testing.T) {

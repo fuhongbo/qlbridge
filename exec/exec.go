@@ -9,8 +9,8 @@ package exec
 import (
 	"fmt"
 
-	"github.com/araddon/qlbridge/plan"
-	"github.com/araddon/qlbridge/schema"
+	"github.com/fuhongbo/qlbridge/plan"
+	"github.com/fuhongbo/qlbridge/schema"
 )
 
 var (
