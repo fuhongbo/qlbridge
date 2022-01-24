@@ -194,11 +194,31 @@ func (m ContextSimple) Get(key string) (value.Value, bool) {
 			return nil, false
 		}
 		if mv, isMap := val.(value.Map); isMap {
-			return mv.Get(right)
+			return getVaule(mv.MapValue().Val(), right)
 		}
 		return nil, false
 	}
 	return val, ok
+}
+
+func getVaule(v map[string]value.Value, key string) (value.Value, bool) {
+	left, right, hasNamespace := expr.LeftRight(key)
+	if !hasNamespace {
+		return nil, false
+	}
+	val, ok := v[left]
+	if !ok {
+		return nil, false
+	}
+	if mv, isMap := val.(value.Map); isMap {
+		if strings.Contains(right, ".") && !strings.HasPrefix(right, "`") {
+			getVaule(mv.MapValue().Val(), right)
+		} else {
+			return mv.Get(right)
+		}
+
+	}
+	return nil, false
 }
 
 func (m *ContextSimple) Put(col expr.SchemaInfo, rctx expr.ContextReader, v value.Value) error {
