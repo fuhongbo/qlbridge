@@ -212,7 +212,7 @@ func getVaule(v map[string]value.Value, key string) (value.Value, bool) {
 	}
 	if mv, isMap := val.(value.Map); isMap {
 		if strings.Contains(right, ".") && !strings.HasPrefix(right, "`") {
-			getVaule(mv.MapValue().Val(), right)
+			return getVaule(mv.MapValue().Val(), right)
 		} else {
 			return mv.Get(right)
 		}
