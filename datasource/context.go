@@ -204,7 +204,7 @@ func (m ContextSimple) Get(key string) (value.Value, bool) {
 func getVaule(v map[string]value.Value, key string) (value.Value, bool) {
 	left, right, hasNamespace := expr.LeftRight(key)
 	if !hasNamespace {
-		return nil, false
+		return v[key], false
 	}
 	val, ok := v[left]
 	if !ok {
